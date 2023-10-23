@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conference Login</title>
+</head>
+<body>
+    <h1>Welcome to the Conference Login</h1>
+    <form action="/login" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="usertype">User Type:</label><br>
+        <select id="usertype" name="usertype">
+            <option value="student">Student</option>
+            <option value="conference">Conference</option>
+        </select><br><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
